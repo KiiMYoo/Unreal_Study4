@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Study4.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Study4.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Study4Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Study4">
+      <UniqueIdentifier>{0DAF04C4-D285-3E27-9A26-64605745BA5B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Study4\Study4.Build.cs">
+      <Filter>Source\Study4</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Study4\Study4.cpp">
+      <Filter>Source\Study4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Study4\Study4.h">
+      <Filter>Source\Study4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Study4\Study4Character.cpp">
+      <Filter>Source\Study4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Study4\Study4Character.h">
+      <Filter>Source\Study4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Study4\Study4GameMode.cpp">
+      <Filter>Source\Study4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Study4\Study4GameMode.h">
+      <Filter>Source\Study4</Filter>
+    </ClCompile>
+    <Filter Include="Source\Study4\Private">
+      <UniqueIdentifier>{E2396A8D-E3F1-3D29-BFFA-A0AA920C4482}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Study4\Private\BaseItem.cpp">
+      <Filter>Source\Study4\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Study4\Private\BaseObstacle.cpp">
+      <Filter>Source\Study4\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Study4\Private\BigCoinItem.cpp">
+      <Filter>Source\Study4\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Study4\Private\CoinItem.cpp">
+      <Filter>Source\Study4\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Study4\Private\HealingItem.cpp">
+      <Filter>Source\Study4\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Study4\Private\ItemInterface.cpp">
+      <Filter>Source\Study4\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Study4\Private\ItemSpawnRow.cpp">
+      <Filter>Source\Study4\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Study4\Private\JumpObstacle.cpp">
+      <Filter>Source\Study4\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Study4\Private\MineItem.cpp">
+      <Filter>Source\Study4\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Study4\Private\ObstacleInterface.cpp">
+      <Filter>Source\Study4\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Study4\Private\ObstacleSpawnRow.cpp">
+      <Filter>Source\Study4\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Study4\Private\ObstacleSpawnVolume.cpp">
+      <Filter>Source\Study4\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Study4\Private\RoatatingObstacle.cpp">
+      <Filter>Source\Study4\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Study4\Private\SlowingItem.cpp">
+      <Filter>Source\Study4\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Study4\Private\SmallCoinItem.cpp">
+      <Filter>Source\Study4\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Study4\Private\SpawnVolume.cpp">
+      <Filter>Source\Study4\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Study4\Private\SpeedObstacle.cpp">
+      <Filter>Source\Study4\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Study4\Private\StudyCharacter.cpp">
+      <Filter>Source\Study4\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Study4\Private\StudyGameInstance.cpp">
+      <Filter>Source\Study4\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Study4\Private\StudyGameModeBase.cpp">
+      <Filter>Source\Study4\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Study4\Private\StudyGameStateBase.cpp">
+      <Filter>Source\Study4\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Study4\Private\StudyPlayerController.cpp">
+      <Filter>Source\Study4\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Study4\Private\TransformItem.cpp">
+      <Filter>Source\Study4\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\Study4\Public">
+      <UniqueIdentifier>{A535034A-86B6-3E8C-AFCD-AA5F44B8EFA6}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Study4\Public\BaseItem.h">
+      <Filter>Source\Study4\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Study4\Public\BaseObstacle.h">
+      <Filter>Source\Study4\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Study4\Public\BigCoinItem.h">
+      <Filter>Source\Study4\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Study4\Public\CoinItem.h">
+      <Filter>Source\Study4\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Study4\Public\HealingItem.h">
+      <Filter>Source\Study4\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Study4\Public\ItemInterface.h">
+      <Filter>Source\Study4\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Study4\Public\ItemSpawnRow.h">
+      <Filter>Source\Study4\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Study4\Public\JumpObstacle.h">
+      <Filter>Source\Study4\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Study4\Public\MineItem.h">
+      <Filter>Source\Study4\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Study4\Public\ObstacleInterface.h">
+      <Filter>Source\Study4\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Study4\Public\ObstacleSpawnRow.h">
+      <Filter>Source\Study4\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Study4\Public\ObstacleSpawnVolume.h">
+      <Filter>Source\Study4\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Study4\Public\RoatatingObstacle.h">
+      <Filter>Source\Study4\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Study4\Public\SlowingItem.h">
+      <Filter>Source\Study4\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Study4\Public\SmallCoinItem.h">
+      <Filter>Source\Study4\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Study4\Public\SpawnVolume.h">
+      <Filter>Source\Study4\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Study4\Public\SpeedObstacle.h">
+      <Filter>Source\Study4\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Study4\Public\StudyCharacter.h">
+      <Filter>Source\Study4\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Study4\Public\StudyGameInstance.h">
+      <Filter>Source\Study4\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Study4\Public\StudyGameModeBase.h">
+      <Filter>Source\Study4\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Study4\Public\StudyGameStateBase.h">
+      <Filter>Source\Study4\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Study4\Public\StudyPlayerController.h">
+      <Filter>Source\Study4\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Study4\Public\TransformItem.h">
+      <Filter>Source\Study4\Public</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
