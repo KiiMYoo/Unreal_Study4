@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// 오타 수정 예정
 
 #pragma once
 
